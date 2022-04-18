@@ -1,10 +1,10 @@
-# Desenvolvimento de aplicação web com API RESTfull
+# Desenvolvimento de aplicação web 
 
 ## Descrição
 
 Esse tutorial tem por objetivo demonstrar passo a passo a construção de uma aplicação simples, estruturada em duas partes: front-end e back-end. 
 
-O front-end é a parte que o usuário visualiza. O back-end é a comunicação com a base de dados. Ambas partes estão conectadas através de uma API RESTfull.
+O front-end é a parte que o usuário visualiza. O back-end é a comunicação com a base de dados. Ambas partes estão conectadas 
 
 O tutorial é composto de 7 etapas que mostram progressivamente a construção da aplicação.
 
@@ -55,85 +55,64 @@ Essa etapa tem por objetivo testar a instalação do Node.js, Sqlite3, verificar
 ### Instruções
 
 1) Crie a seguinte árvore de estruturas no seu GitHub PESSOAL:
+
  \SEMANA_01
+ 
     \01_AUT_EST
+    
     \02_TUTORIAL
+    
     \03_AUT_EST_ENTREGA
+    
     \04_EX_OBRIGATORIOS
-    \05_AUT_EST_EX_OPCIONAIS    
- \SEMANA_02
-    \01_AUT_EST
-    \02_TUTORIAL
-    \03_AUT_EST_ENTREGA
-    \04_EX_OBRIGATORIOS
+    
     \05_AUT_EST_EX_OPCIONAIS 
- \SEMANA_03
-    \01_AUT_EST
-    \02_TUTORIAL
-     ...
-\SEMANA_04
+    
+ \SEMANA_02
+ 
  ...
+ 
 \SEMANA_10
+
    
-3) COPIE os arquivos abaixo para a pasta   \SEMANA_01\02_TUTORIAL  do SEU GitHub       app_11.js
+3) COPIE os arquivos abaixo para a pasta   \SEMANA_01\02_TUTORIAL  do SEU GitHub       
+    app_11.js
+    
     app_12.js
+    
     app_13.js 
+    
 4) Abrir o "Prompt de Comando" (Windows) ou "Terminal" (Mac) no modo Administrator NA PASTA ACIMA e digitar:  
 `npm install sqlite3`  
 `npm install express --save`
-5) Execute os seguintes comandos na janela to terminal e verifique os resultados:
-6) 1 - node app_11.js
-Resultado: http://127.0.0.1:3001/
-	Etapa 0 - INSTALACAO - Servidor Node.js
-	Meu servidor NODE.js funciona!
+5) Execute os seguintes comandos na janela to terminal e verifique os resultados no navegador: 
 
-
-2 - node app_12.js
-Resultado: http://127.0.0.1:3002/
-  Etapa 0 - INSTALACAO
-  Servidor de Banco de Dados SQLite3
-  Usuario de teste lido com sucesso
-
-3 - node app_13.js
-Resultado: http://127.0.0.1:3003/?nome=andre
-  Etapa 0 - INSTALACAO - EndPoint GET
-  Hello andre voce conseguiu um GET! bem sucedido
-7) 
-
-
-6) arquivo texto em uma pasta e salvar com o nome **app.js**.
-
-2) Copiar e colar o conteúdo abaixo nesse arquivo.
-
-```
-const http = require('http');
-
-const hostname = '127.0.0.1';
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
-```
-
-3) Abrir o promt de comando (Windows) ou o Terminal (Mac) nessa pasta e digitar:
-
-`node app.js`
-
-4) Abrir o Chrome (ou outro navegador) e digitar:
-
-`http://127.0.0.1:3000/`
-
-4) Se tudo estiver correto, vai aparecer **Hello World**.
-
-
-
+   1 - node app_11.js
+   
+   Resultado no NAVEGADOR: http://127.0.0.1:3001/
+   
+      Etapa 0 - INSTALACAO - Servidor Node.js
+	
+      Meu servidor NODE.js funciona!
+	
+   2 - node app_12.js
+   
+   Resultado no NAVEGADOR: http://127.0.0.1:3002/
+   
+       Etapa 0 - INSTALACAO
+       
+       Servidor de Banco de Dados SQLite3
+       
+       Usuario de teste lido com sucesso
+       
+    3 - node app_13.js
+    
+    Resultado no NAVEGADOR: http://127.0.0.1:3003/?nome=andre 
+    
+        Etapa 0 - INSTALACAO - EndPoint "GET"
+	
+        Hello andre voce conseguiu um GET! bem sucedido
+	
 
 ## Etapa 1
 
