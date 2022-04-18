@@ -34,7 +34,7 @@ Exemplo: `{nome: "João", idade: 24}`
 **Bootstrap** - biblioteca para desenvolvimento de front-ends web.
 
 
-## Instalação
+## Instalação: 
 
 1. Baixar e instalar o Node.js: [https://nodejs.org/pt-br/](https://nodejs.org/pt-br/)
 2. Baixar e instalar o DB Browser for SQLite: [https://sqlitebrowser.org/](https://sqlitebrowser.org/)
@@ -46,15 +46,62 @@ Exemplo: `{nome: "João", idade: 24}`
 
 
 
-## Etapa 0
+## Etapa 1
 
 ### Descrição
 
-Essa etapa tem por objetivo testar a instalação do Node.js e verificar se está funcionando corretamente. 
+Essa etapa tem por objetivo testar a instalação do Node.js, Sqlite3, verificar se está funcionando corretamente e também as feramentas necessárias para desenvolvimento do projeto
 
 ### Instruções
 
-1) Criar um arquivo texto em uma pasta e salvar com o nome **app.js**.
+1) Crie a seguinte árvore de estruturas no seu GitHub PESSOAL:
+ \SEMANA_01
+    \01_AUT_EST
+    \02_TUTORIAL
+    \03_AUT_EST_ENTREGA
+    \04_EX_OBRIGATORIOS
+    \05_AUT_EST_EX_OPCIONAIS    
+ \SEMANA_02
+    \01_AUT_EST
+    \02_TUTORIAL
+    \03_AUT_EST_ENTREGA
+    \04_EX_OBRIGATORIOS
+    \05_AUT_EST_EX_OPCIONAIS 
+ \SEMANA_03
+    \01_AUT_EST
+    \02_TUTORIAL
+     ...
+\SEMANA_04
+ ...
+\SEMANA_10
+   
+3) COPIE os arquivos abaixo para a pasta   \SEMANA_01\02_TUTORIAL  do SEU GitHub       app_11.js
+    app_12.js
+    app_13.js 
+4) Abrir o "Prompt de Comando" (Windows) ou "Terminal" (Mac) no modo Administrator NA PASTA ACIMA e digitar:  
+`npm install sqlite3`  
+`npm install express --save`
+5) Execute os seguintes comandos na janela to terminal e verifique os resultados:
+6) 1 - node app_11.js
+Resultado: http://127.0.0.1:3001/
+	Etapa 0 - INSTALACAO - Servidor Node.js
+	Meu servidor NODE.js funciona!
+
+
+2 - node app_12.js
+Resultado: http://127.0.0.1:3002/
+  Etapa 0 - INSTALACAO
+  Servidor de Banco de Dados SQLite3
+  Usuario de teste lido com sucesso
+
+3 - node app_13.js
+Resultado: http://127.0.0.1:3003/?nome=andre
+  Etapa 0 - INSTALACAO - EndPoint GET
+  Hello andre voce conseguiu um GET! bem sucedido
+7) 
+
+
+6) arquivo texto em uma pasta e salvar com o nome **app.js**.
 
 2) Copiar e colar o conteúdo abaixo nesse arquivo.
 
