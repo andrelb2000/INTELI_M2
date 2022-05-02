@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
 	req.query.nome
 	res.write("<h1> Etapa 1 - INSTALACAO - EndPoint GET</h1>")
 	res.end("<h2>Hello " + req.query.nome + " voce conseguiu um GET! bem sucedido</h2>");
+	res.end("<h2>Hello " + req.query.nome + " voce conseguiu um GET! bem sucedido </br> Seu numero de telefone: " +req.query.telefone + "</h2>");
 });
 
 // Inicia o servidor
